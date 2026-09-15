@@ -1,0 +1,107 @@
+.details-page {
+  background: white;
+  margin: 25px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 30px;
+}
+
+.details-image {
+  text-align: center;
+}
+
+.details-image img {
+  width: 90%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.detail-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.detail-buttons button {
+  padding: 15px 35px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.detail-buttons button:first-child {
+  background: #ff9f00;
+}
+
+.detail-buttons button:last-child {
+  background: #fb641b;
+}
+
+.details-info h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.detail-rating {
+  background: #388e3c;
+  color: white;
+  display: inline-block;
+  padding: 7px 12px;
+}
+
+.detail-rating span {
+  margin-left: 15px;
+}
+
+.details-info h2 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.old-detail-price {
+  text-decoration: line-through;
+  color: gray;
+  display: inline-block;
+}
+
+.detail-discount {
+  display: inline-block;
+  color: green;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 25px;
+}
+
+.quantity button {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #aaa;
+  background: white;
+}
+
+.quantity span {
+  width: 45px;
+  text-align: center;
+}
+
+.description {
+  line-height: 1.7;
+  margin: 10px 0 20px;
+}
+
+.not-found {
+  text-align: center;
+  padding: 100px;
+}
+
+@media (max-width: 700px) {
+  .details-page {
+    grid-template-columns: 1fr;
+  }
+}
