@@ -1,0 +1,51 @@
+.delivery-page {
+  min-height: calc(100vh - 65px);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.delivery-form {
+  background: white;
+  width: 600px;
+  padding: 30px;
+  box-shadow: 0 2px 10px #ccc;
+}
+
+.delivery-form h1 {
+  margin-bottom: 25px;
+}
+
+.delivery-form input[type="text"],
+.delivery-form input[type="tel"],
+.delivery-form textarea {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.delivery-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.delivery-form label {
+  display: block;
+  margin: 15px 0;
+}
+
+.delivery-form label input {
+  margin-right: 10px;
+}
+
+.delivery-form button {
+  width: 100%;
+  padding: 15px;
+  background: #fb641b;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}

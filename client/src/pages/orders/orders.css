@@ -1,0 +1,33 @@
+.orders-page {
+  padding: 30px;
+}
+
+.orders-page h1 {
+  margin-bottom: 20px;
+}
+
+.order-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 5px #ddd;
+}
+
+.order-card strong {
+  color: #388e3c;
+  margin-left: 10px;
+}
+
+.order-product {
+  display: flex;
+  gap: 20px;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 15px;
+}
+
+.order-product img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
